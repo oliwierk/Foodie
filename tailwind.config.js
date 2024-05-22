@@ -9,6 +9,8 @@ export default {
 				burger: "url('/burger1.jpeg')",
 				drink: "url('/drink.jpeg')",
 				taco: "url('/taco.jpeg')",
+				pizzaCheese: "url('/pizzaCheese.jpeg')",
+				burgerCrispy: "url('/burgerCrispy.jpeg')",
 			},
 		},
 	},

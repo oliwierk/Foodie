@@ -4,6 +4,7 @@ export default {
 	theme: {
 		extend: {
 			backgroundImage: {
+				herobg: "url('/herobg.jpeg')",
 				pizza: "url('/pizza.jpeg')",
 				burger: "url('/burger1.jpeg')",
 				drink: "url('/drink.jpeg')",

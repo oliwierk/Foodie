@@ -14,13 +14,13 @@ const HeroSection: React.FC = () => {
 					</p>
 					<a
 						href=''
-						className='text-7xl absolute bottom-14 left-0 uppercase underline text-black'
+						className='text-7xl absolute bottom-14 left-0 uppercase underline text-black hover:blur-sm transition-all duration-300'
 					>
 						See menu
 					</a>
 				</div>
 			</div>
-			<div className='w-full h-1/2 xl:w-1/2 xl:h-full bg-indigo-300'></div>
+			<div className='w-full h-1/2 xl:w-1/2 xl:h-full bg-herobg bg-cover blur-sm hover:blur-0 transition-all duration-200'></div>
 		</div>
 	);
 };

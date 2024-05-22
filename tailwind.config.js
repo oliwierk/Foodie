@@ -5,9 +5,9 @@ export default {
 		extend: {
 			backgroundImage: {
 				pizza: "url('/pizza.jpeg')",
-				burger: "url('/burger.jpeg')",
+				burger: "url('/burger1.jpeg')",
 				drink: "url('/drink.jpeg')",
-				pancake: "url('/pancake.jpeg')",
+				taco: "url('/taco.jpeg')",
 			},
 		},
 	},

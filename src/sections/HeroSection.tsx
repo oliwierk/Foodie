@@ -7,14 +7,14 @@ const HeroSection: React.FC = () => {
 			<div className='relative flex flex-row w-full h-1/2 xl:w-1/2 xl:h-full bg-orange-100'>
 				<div className='w-1/2'></div>
 				<div className='relative w-1/2'>
-					<p className='absolute bottom-32 right-8'>
+					<p className='absolute bottom-40 right-8'>
 						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam
 						nisi quod at dignissimos explicabo quam veniam nostrum deleniti,
 						delectus modi!
 					</p>
 					<a
 						href=''
-						className='text-7xl absolute bottom-8 left-0 uppercase underline text-black'
+						className='text-7xl absolute bottom-14 left-0 uppercase underline text-black'
 					>
 						See menu
 					</a>

@@ -3,6 +3,9 @@ export default {
 	content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
 	theme: {
 		extend: {
+			fontFamily: {
+				poetsen: ["Poetsen One, sans-serif"],
+			},
 			backgroundImage: {
 				herobg: "url('/herobg.jpeg')",
 				pizza: "url('/pizza.jpeg')",

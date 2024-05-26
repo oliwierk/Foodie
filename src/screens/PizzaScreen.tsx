@@ -11,76 +11,81 @@ const PizzaScreen: React.FC = () => {
 					foodie <span className='text-rose-700 underline'> pizza</span>
 				</Link>
 				<div className='flex flex-wrap w-full h-full gap-4 mt-[10%] xl:mt-[5%]'>
-					<div className='flex flex-col items-center flex-grow md:w-1/3 w-full xl:w-1/4 h-[80vh] xl:h-[70vh] bg-red-900 rounded-3xl p-6 gap-4 xl:gap-6'>
+					<div className='flex flex-col items-center flex-grow md:w-1/3 w-full xl:w-1/4 h-[90vh] xl:h-[70vh] bg-red-900 rounded-3xl p-6 gap-4 xl:gap-6'>
 						<div className='w-64 h-64 rounded-full bg-pizzaCheese bg-cover bg-center'></div>
 						<p className='text-neutral-200 text-3xl tracking-widest mt-2 text-center'>
 							Pizza Cheeto Lava
 						</p>
 						<p className='text-neutral-200 text-6xl'>40 PLN</p>
 						<p className='text-neutral-200 text-center'>
-							Pikantny sos pomidorowy, mozzarella, pokruszone Hot Cheetos,
-							plastry jalapeño, kawałki pepperoni, posypane dodatkową warstwą
-							Cheetos.
+							Ostra i chrupiąca, idealna dla miłośników intensywnych smaków i
+							pikantnych wrażeń. Pikantny sos pomidorowy, mozzarella, pokruszone
+							Hot Cheetos, plastry jalapeño, kawałki pepperoni, posypane
+							dodatkową warstwą Cheetos.
 						</p>
 					</div>
-					<div className='flex flex-col items-center flex-grow md:w-1/3 w-full xl:w-1/4 h-[80vh] xl:h-[70vh] bg-red-900 rounded-3xl p-6 gap-4 xl:gap-6'>
+					<div className='flex flex-col items-center flex-grow md:w-1/3 w-full xl:w-1/4 h-[90vh] xl:h-[70vh] bg-red-900 rounded-3xl p-6 gap-4 xl:gap-6'>
 						<div className='w-64 h-64 rounded-full bg-pizzaCheese bg-cover bg-center'></div>
 						<p className='text-neutral-200 text-3xl tracking-widest mt-2 text-center'>
-							Pizza Cheeto Lava
+							Pizza Złoty Midas
 						</p>
-						<p className='text-neutral-200 text-6xl'>40 PLN</p>
+						<p className='text-neutral-200 text-6xl'>45 PLN</p>
 						<p className='text-neutral-200 text-center'>
-							Pikantny sos pomidorowy, mozzarella, pokruszone Hot Cheetos,
-							plastry jalapeño, kawałki pepperoni, posypane dodatkową warstwą
-							Cheetos.
+							Luksusowa kombinacja kremowego sosu Alfredo z dodatkiem
+							błyszczącego złota, dającego wyjątkowy efekt wizualny i smakowy.
+							Sos Alfredo, mozzarella, kawałki kurczaka, cebula, posypana
+							jadalnym złotem i płatkami chili.
 						</p>
 					</div>
-					<div className='flex flex-col items-center flex-grow md:w-1/3 w-full xl:w-1/4 h-[80vh] xl:h-[70vh] bg-red-900 rounded-3xl p-6 gap-4 xl:gap-6'>
+					<div className='flex flex-col items-center flex-grow md:w-1/3 w-full xl:w-1/4 h-[90vh] xl:h-[70vh] bg-red-900 rounded-3xl p-6 gap-4 xl:gap-6'>
 						<div className='w-64 h-64 rounded-full bg-pizzaCheese bg-cover bg-center'></div>
 						<p className='text-neutral-200 text-3xl tracking-widest mt-2 text-center'>
-							Pizza Cheeto Lava
+							Oceaniczny Raj
 						</p>
-						<p className='text-neutral-200 text-6xl'>40 PLN</p>
+						<p className='text-neutral-200 text-6xl'>50 PLN</p>
 						<p className='text-neutral-200 text-center'>
-							Pikantny sos pomidorowy, mozzarella, pokruszone Hot Cheetos,
-							plastry jalapeño, kawałki pepperoni, posypane dodatkową warstwą
-							Cheetos.
+							Niezwykła pizza o głębokim, morskim aromacie z wyraźnym,
+							śródziemnomorskim charakterem. Czarny sos na bazie atramentu z
+							kałamarnicy, ser feta, krewetki, oliwki, czerwona cebula, posypane
+							świeżą rukolą.
 						</p>
 					</div>
-					<div className='flex flex-col items-center flex-grow md:w-1/3 w-full xl:w-1/4 h-[80vh] xl:h-[70vh] bg-red-900 rounded-3xl p-6 gap-4 xl:gap-6'>
+					<div className='flex flex-col items-center flex-grow md:w-1/3 w-full xl:w-1/4 h-[90vh] xl:h-[70vh] bg-red-900 rounded-3xl p-6 gap-4 xl:gap-6'>
 						<div className='w-64 h-64 rounded-full bg-pizzaCheese bg-cover bg-center'></div>
 						<p className='text-neutral-200 text-3xl tracking-widest mt-2 text-center'>
-							Pizza Cheeto Lava
+							Ognista Mango
 						</p>
-						<p className='text-neutral-200 text-6xl'>40 PLN</p>
+						<p className='text-neutral-200 text-6xl'>38 PLN</p>
 						<p className='text-neutral-200 text-center'>
-							Pikantny sos pomidorowy, mozzarella, pokruszone Hot Cheetos,
-							plastry jalapeño, kawałki pepperoni, posypane dodatkową warstwą
-							Cheetos.
+							Słodko-ostra kombinacja, która zaskakuje połączeniem egzotycznego
+							mango i ognistego chili. Sos pomidorowy, mozzarella, kawałki
+							świeżego mango, chili, czerwona cebula, kawałki boczku.
 						</p>
 					</div>
-					<div className='flex flex-col items-center flex-grow md:w-1/3 w-full xl:w-1/4 h-[80vh] xl:h-[70vh] bg-red-900 rounded-3xl p-6 gap-4 xl:gap-6'>
+					<div className='flex flex-col items-center flex-grow md:w-1/3 w-full xl:w-1/4 h-[90vh] xl:h-[70vh] bg-red-900 rounded-3xl p-6 gap-4 xl:gap-6'>
 						<div className='w-64 h-64 rounded-full bg-pizzaCheese bg-cover bg-center'></div>
 						<p className='text-neutral-200 text-3xl tracking-widest mt-2 text-center'>
-							Pizza Cheeto Lava
+							Sernikoza
 						</p>
-						<p className='text-neutral-200 text-6xl'>40 PLN</p>
+						<p className='text-neutral-200 text-6xl'>42 PLN</p>
 						<p className='text-neutral-200 text-center'>
-							Pikantny sos pomidorowy, mozzarella, pokruszone Hot Cheetos,
-							plastry jalapeño, kawałki pepperoni, posypane dodatkową warstwą
-							Cheetos.
+							Idealna propozycja dla amatorów słodkich i wyrazistych połączeń;
+							pizza, która smakuje jak deser. Kremowy sos sernikowy jako baza,
+							mozzarella, truskawki, posypka z kruszonych herbatników, polane
+							syropem truskawkowym.
 						</p>
 					</div>
-					<div className='flex flex-col items-center flex-grow md:w-1/3 w-full xl:w-1/4 h-[80vh] xl:h-[70vh] bg-red-900 rounded-3xl p-6 gap-4 xl:gap-6'>
+					<div className='flex flex-col items-center flex-grow md:w-1/3 w-full xl:w-1/4 h-[90vh] xl:h-[70vh] bg-red-900 rounded-3xl p-6 gap-4 xl:gap-6'>
 						<div className='w-64 h-64 rounded-full bg-pizzaCheese bg-cover bg-center'></div>
 						<p className='text-neutral-200 text-3xl tracking-widest mt-2 text-center'>
-							Pizza Cheeto Lava
+							Tajemniczy Wschód
 						</p>
-						<p className='text-neutral-200 text-6xl'>40 PLN</p>
+						<p className='text-neutral-200 text-6xl'>46 PLN</p>
 						<p className='text-neutral-200 text-center'>
-							Pikantny sos pomidorowy, mozzarella, pokruszone Hot Cheetos,
-							plastry jalapeño, kawałki pepperoni, posypane dodatkową warstwą
-							Cheetos.
+							Egzotyczna pizza z orientalnym twistem, doskonała dla tych, którzy
+							lubią połączenie słodkich i pikantnych nut. Sos curry, mozzarella,
+							kawałki pieczonego kurczaka, ananas, czerwona papryka, posypka z
+							orzechów nerkowca.
 						</p>
 					</div>
 				</div>
